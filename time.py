@@ -11,7 +11,7 @@ root = tk.Tk()
 
 root.title("Digital clock")
 
-lbl = tk.Label(root, font=('LCD Solid',50, 'bold'), background='black', foreground='green')
+lbl = tk.Label(root, font=('LCD Solid',50, 'bold'), background='red', foreground='black')
 lbl.pack(anchor='center')
 update_time()
 root.mainloop()
